@@ -1,9 +1,11 @@
+En este codigo creamos clases y usamos metodos
+
 # @ author : Samuel Emiliano Perez Montiel
 class Cuenta :
   #Este es el metodo constructor, que inicializa
   #a los atributos de una clase
   def __init__(self, valor, deuda):
-    self.saldo = valor #No entiendo, preguntale a Gemini
+    self.saldo = valor 
     self.credito = deuda
   def depositar (self, cantidad):
     self.saldo = self.saldo + cantidad
